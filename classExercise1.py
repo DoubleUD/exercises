@@ -66,15 +66,15 @@ else:
 name = input("enter your name: ")
 
 """
-here i want to check if the first charactor in the name entered by the user (this is initialised up above) is m
+here i want to check if the first character in the name entered by the user (this is initialised up above) is m
 if there name starts with m print "your name starts with m" if not then print "your name dose not start with m"
 also note that you must replace the (?) inside the square brackets [] with the appropriate index to only get the first letter
 """
 
-if name[?] == "m":
-    print("?")
+if name[0] == "m" or name[0] == "M":
+    print("Your name starts with m")
 else:
-    print("?")
+    print("Please leave")
 
 ## Question 3.
 
